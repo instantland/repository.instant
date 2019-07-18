@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.instanttrialiptv1" version="1.0" name="Instant IPTV 1" provider-name="Team Instant">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.addon.common" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Instant IPTV</summary>
+        <description>Instant IPTV Visit -> http://tiny.cc/unlimitedtrial1  you will get a User and Pass Enjoy UNLIMITED IPTV FREE! </description>
+        <disclaimer></disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.instant" name="Instant Repo" version="1.0" provider-name="Team Instant">
+	<extension point="xbmc.addon.repository" name="Team Instant">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/instantland/repository.instant/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/instantland/repository.instant/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/instantland/repository.instantmaster/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Team Instant</summary>
+		<description lang="en">Team Instant</description>
+		<genre></genre>
+	</extension>
+</addon>
+</addons>
