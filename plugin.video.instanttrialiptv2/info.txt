@@ -1,2 +1,0 @@
-lehekylg = Url of domain 
-pordinumber = Port of domain
