@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.instanttrialiptv1" version="1.0" name="Instant IPTV 1" provider-name="Team Instant">
+<addon id="plugin.video.instanttrialiptv1" version="2.0" name="Instant IPTV 1" provider-name="Team Instant">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.addon.common" optional="true" />
