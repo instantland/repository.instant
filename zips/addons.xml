@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.instanttrialiptv1" version="2.0" name="Instant IPTV 1" provider-name="Team Instant">
+<addon id="plugin.video.instanttrialiptv1" version="2.1" name="Instant IPTV 1" provider-name="Team Instant">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.addon.common" optional="true" />
@@ -12,7 +12,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Instant IPTV</summary>
-        <description>Instant IPTV Visit -> http://tiny.cc/unlimitedtrial1  you will get a User and Pass Enjoy UNLIMITED IPTV FREE! </description>
+        <description>Instant IPTV Visit -> http://tiny.cc/unlimitedtrial1  you will get a User and Pass Enjoy UNLIMITED FREE IPTV FOR 12 Hours!! </description>
         <disclaimer></disclaimer>
         <language>en</language>
         <platform>all</platform>
